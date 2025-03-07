@@ -1,4 +1,15 @@
 #include<stdio.h>
+void reverse(int arr[],int a,int b){
+    int i=a,
+    int j=b;
+    while(i<j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+        i++;
+        j--;
+            }
+}
 int main(){
     int n;
     scanf("%d",&n);
@@ -9,13 +20,9 @@ int main(){
     int k;
     scanf("%d",&k);
     k=k%n;
-    for(int j=0;j<k;j++){
-        int temp=arr[n-1];
-        for(int i=n-1;i>0;i--){
-            arr[i] = arr[i-1];
-        }
-        arr[0] = temp;
-    }
+    reverse(arr,0,n-1);
+    reverse(arr,0,k-1);
+    reverse(arr,k,n-1);
     for(int i=0;i<n;i++){
         printf("%d\n",&arr[i]);
     }
