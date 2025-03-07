@@ -16,7 +16,7 @@ int main(){
         }
         
     }
-    if(k==0){
+    else{
         printf("-1");
     }
     return 0;
