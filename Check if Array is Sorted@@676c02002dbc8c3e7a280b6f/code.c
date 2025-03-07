@@ -11,9 +11,10 @@ int main(){
             break;
         printf("Not Sorted");
         }
+    }
         else{
             printf("Sorted");
         }
-    }
+    
     return 0;
 }
