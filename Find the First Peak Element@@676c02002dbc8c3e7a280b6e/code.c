@@ -10,11 +10,13 @@ int main(){
         if((i==0 ||arr[i]>=arr[i-1]) && (i==n-1|| arr[i]>=arr[i+1])){
                       
             printf("%d",arr[i]);
+            int k=1;
             break;
         }
-        else {
-            printf("%d",-1);
-        }
+        
+    }
+    if(k==0){
+        printf("-1")
     }
     return 0;
 }
