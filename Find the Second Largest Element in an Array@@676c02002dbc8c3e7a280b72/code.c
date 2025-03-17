@@ -23,6 +23,7 @@ int main(){
         if(arr[n-1]==arr[i]){
             printf("-1");
         }
+    }
         printf("%d",max2);
        return 0;
     }
