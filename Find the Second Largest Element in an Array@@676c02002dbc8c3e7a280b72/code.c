@@ -22,7 +22,7 @@ int main(){
         
     }
         for(int i=0;i<n;i++){
-  else if(arr[n-1]==arr[0]){
+   if(arr[n-1]==arr[0]){
             printf("-1");
   }
             
