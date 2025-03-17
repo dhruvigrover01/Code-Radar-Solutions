@@ -13,6 +13,9 @@ int main(){
             max2=max;
             max=arr[i];
         }
+        else if(arr[n-1]==arr[i]){
+            printf("-1");
+        }
            else if(max2<arr[i] && max!=max2){
                max2=arr[i];
         }
