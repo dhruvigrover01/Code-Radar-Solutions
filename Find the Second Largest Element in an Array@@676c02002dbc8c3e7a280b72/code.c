@@ -18,9 +18,10 @@ int main(){
            else if(max2<arr[i] && max!=max2){
                max2=arr[i];
         }
-      printf("%d",max2);
+     
         
     }
+     printf("%d",max2);
         for(int i=0;i<n;i++){
    if(arr[n-1]==arr[0]){
             printf("-1");
