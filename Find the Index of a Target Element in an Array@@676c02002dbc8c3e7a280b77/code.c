@@ -8,17 +8,18 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-int index=0;
+int index=1;
     for(int i=0;i<n;i++){
-        if(arr[i]==k){
-             index=1;
+        if(arr[i]==k && index==1){
             printf("%d",i);
+              index++;
            
         }
         else{
             index=0;
         }
     }
+
     if(index==0){
         printf("-1");
     }
