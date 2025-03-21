@@ -15,11 +15,15 @@ int main(){
             k=1;
         }
         else{
-        printf("NO");
-    }
+            k=0;
+        }
+       
     }
     if(k==1){
         printf("YES");
+    }
+    else {
+        printf("NO");
     }
     
     return 0;
