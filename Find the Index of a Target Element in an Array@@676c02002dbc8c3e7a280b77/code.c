@@ -12,6 +12,7 @@ int index=0;
     for(int i=0;i<n;i++){
         if(arr[i]==k){
             printf("%d",i);
+            index==1;
         }
         else{
             index=0;
