@@ -11,8 +11,9 @@ int main(){
 int index=0;
     for(int i=0;i<n;i++){
         if(arr[i]==k){
+             index=1;
             printf("%d",i);
-            index==1;
+           
         }
         else{
             index=0;
