@@ -16,7 +16,7 @@ int index=1;
            
         }
         else if(arr[i]!=k){
-            printf("%d",0)
+            printf("%d",0);
         }
     }
 
