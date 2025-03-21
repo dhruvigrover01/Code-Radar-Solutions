@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main(){
     int n;
     scanf("%d",&n);
@@ -9,20 +10,17 @@ int main(){
     int k;
     scanf("%d",&k);
 int index=1;
+    int output = -1 ; 
     for(int i=0;i<n;i++){
         if(arr[i]==k && index==1){
-            printf("%d",i);
-              index++;
+            
+            output = i ;
+            break ;
+            
            
         }
          
     }
-    if(index==0){
-        printf("-1");
-    }
-    
 
-    
-
-    return 0;
+    return output;
 }
