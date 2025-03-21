@@ -19,7 +19,7 @@ int index=1;
             index=0;
         }
     }
-    if(index==0){
+     if(index==0){
         printf(-1);
     }
 
