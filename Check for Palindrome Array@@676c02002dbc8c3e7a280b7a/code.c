@@ -14,12 +14,13 @@ int main(){
             j--;
             k=1;
         }
+        else{
+        printf("NO");
+    }
     }
     if(k==1){
         printf("YES");
     }
-    else{
-        printf("NO");
-    }
+    
     return 0;
 }
