@@ -15,7 +15,7 @@ int index=1;
               index++;
            
         }
-         elseif(arr[i]!=k){
+         else if(arr[i]!=k){
             index=0;
         }
     }
