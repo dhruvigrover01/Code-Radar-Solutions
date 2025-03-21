@@ -22,7 +22,7 @@ int main(){
     if(k==1){
         printf("YES");
     }
-    else {
+    else if(k==0){
         printf("NO");
     }
     
