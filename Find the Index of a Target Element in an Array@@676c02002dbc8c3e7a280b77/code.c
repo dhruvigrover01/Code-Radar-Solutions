@@ -16,8 +16,11 @@ int index=1;
            
         }
          else if(arr[i]!=k){
-             printf("-1");
+             index=0;
         }
+    }
+    if(index==0){
+        printf("-1");
     }
     
 
