@@ -22,5 +22,6 @@ int index=1;
          
     }
 
-    return output;
+    printf("%d",output) ;
+    
 }
