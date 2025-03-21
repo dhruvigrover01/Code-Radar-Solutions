@@ -15,7 +15,12 @@ int index=1;
               index++;
            
         }
-        
+         elseif(arr[i]!=k){
+            index=0;
+        }
+    }
+    if(index==0){
+        printf(-1);
     }
 
     
